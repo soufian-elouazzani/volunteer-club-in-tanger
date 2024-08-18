@@ -1,6 +1,6 @@
 {
     "impact": {
-        "children": 247,
+        "children": 3,
         "adults": 9,
         "girls": 134,
         "boys": 112,
@@ -14,15 +14,15 @@
     ],
     "mission": {
         "description": [
-            "The Fairfield Programming Association was founded on the belief that anyone can learn to program, if they were given the right resources.",
-            "Together, we can end educational differences based on gender, race, nationality, religion, economic standpoint, or beliefs."
+            " نادي متطوعي طنجة هو نادي ينشط أساسا في مساعدة الجمعيات في الاعمال التطوعية، حل مشاكل الإجتماعية ، القيام بأنشطة مختلفة تستهدف فئات معينة ، جلب متبرعين بالمال للنادي للمساعدات الإنسانية، مساعدات التنظيمات سواء متل حفلات او مهراجانات او تظاهرة كروية ، والكتير من الأنشطة الأخرى ...",
+            " بالإتحاد معا نستطيع أن نجعل طنجة مدينة أفضل و نقدم أكتر عدد من المساعدات" 
         ],
         "oneStudentPromise": [
             "For every product that the Fairfield Programming Association sells, we promise that a student will be taught how to code. If you don't want to buy a product from the FPA, becoming a monthly-sponsor can help keep our mission going during times when we need it the most."
         ]
     },
     "social": {
-        "instagram": "@fairfield.programming"
+        "instagram": "@soufian0607"
     },
     "documents": [
         {

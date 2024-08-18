@@ -15,11 +15,12 @@ const Header = ({  }) => (
           aria-label="Site Nav"
           class="w-min gap-4 text-sm font-medium flex md:gap-8"
         >
-          <Link class="text-gray-500 no-underline" to="/mission">Mission</Link>
-          <Link class="text-gray-500 no-underline" to="/impact">Impact</Link>
-          <Link class="text-gray-500 no-underline" to="/programs">Programs</Link>
-          <Link class="text-gray-500 no-underline" to="/partnerships">Partnerships</Link>
-          <Link class="text-gray-500 no-underline" to="/support">Support</Link>
+          <Link class="text-gray-500 no-underline" to="/support">الدعم</Link>
+          <Link class="text-gray-500 no-underline" to="/partnerships">الشركاء</Link>
+          <Link class="text-gray-500 no-underline" to="/programs">برامجنا</Link>
+          <Link class="text-gray-500 no-underline" to="/impact">تأتيرنا</Link>
+          <Link class="text-gray-500 no-underline" to="/mission">مهمتنا</Link>
+
         </nav>
       </div>
     </div>

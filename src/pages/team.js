@@ -15,11 +15,9 @@ function ProgramsPage({location}) {
     <Layout location={location} crumbLabel="Team">
       <section>
         <div class="mx-auto max-w-6xl px-4 pb-16 flex flex-col mt-8">
-          <h2 className="font-bold text-4xl mb-4">Our Team</h2>
-          <p className="text-xl mb-4 max-w-2xl">
-            To be as transparent as possible, we allow anyone to access
-            information for all of our team members. If you would like to join
-            the team, please see the programs page for more information.
+          <h2 className="font-bold text-4xl mb-4"  >فريقنا</h2>
+          <p className="text-xl mb-4 max-w-2xl" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
+            لجعل عملنا شفاف نحن نعطي الكل الحق في التعرف على أعضاء النادي ومعلومات تواصلهم ,لأجل الانضمام قم بالولوج إلى صفحة الانضمام ,سيتصل بك فريق المسؤول في أقرب وقت
           </p>
           {/* <input value={search} onChange={(e) => { setSearch(e.target.value) }} type="search" class="bg-slate-100 p-4 w-full rounded shadow mb-16" placeholder="John Doe"></input> */}
           <div class="flex items-center lg:w-[35rem] w-[20rem]">

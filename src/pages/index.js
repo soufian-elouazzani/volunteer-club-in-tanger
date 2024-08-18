@@ -16,14 +16,14 @@ function IndexPage({location}) {
         >
           <div class="mx-auto max-w-xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-              With Your Help,
+              ,بمساعدتك
               <strong class="font-extrabold text-active sm:block">
-                &nbsp;Everyone Can Learn.
+                &nbsp;.نستطيع أن نجعل طنجة أفضل 
               </strong>
             </h1>
 
             <p class="mt-4 sm:text-xl sm:leading-relaxed">
-              Giving is the biggest way you can help support the FPA on our mission to teach the world how to code.
+              معا لمجتمع معطاء أكتر
             </p>
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
@@ -31,14 +31,14 @@ function IndexPage({location}) {
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
                 to="/support"
               >
-                Support
+                إدعم
               </Link>
 
               <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
                 to="/mission"
               >
-                Our Mission
+                مهمتنا
               </Link>
             </div>
           </div>
@@ -47,10 +47,10 @@ function IndexPage({location}) {
       <section>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-full md:w-2/3">
-            <h2 className="font-bold text-4xl mb-4">One World. One Mission.</h2>
-            {generalData.mission?.description?.map(text => <p className="mb-2 text-lg">{text}</p>)}
+            <h2 className="font-bold text-4xl mb-4" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>مدينة واحد ,مهمة واحدة</h2>
+            {generalData.mission?.description?.map(text => <p className="mb-2 text-lg" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }} >{text}</p>)}
             <div className="mt-4">
-              <Link className="text-lg underline" to="/mission">Learn More About the Mission</Link>
+              <Link style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }} className="text-lg underline" to="/mission"> ...تعلم أكتر عن مهماتنا</Link>
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">
@@ -62,15 +62,15 @@ function IndexPage({location}) {
       </section>
       <section className="bg-active w-full px-16 py-8">
         <div class="text-center">
-          <h2 className="text-xl uppercase text-white font-bold tracking-wider mb-4">Our Global Impact</h2>
+          <h2 className="text-xl uppercase text-white font-bold tracking-wider mb-4">تأتيرنا على المجتمع </h2>
           <p className="text-8xl font-bold text-white">{impactCount.toLocaleString()}</p>
-          <p className="text-white">students have learned to program with the FPA since September 2022.</p>
-          <Link className="block underline text-white mt-4" to="/impact">More About Impact</Link>
+          <p className="text-white"> . عدد الاشخاص اللذين قمنا بمساعدتهم منذ 2024</p>
+          <Link className="block underline text-white mt-4" to="/impact">تعلم أكتر عن تأتيرنا في المجتمع</Link>
         </div>
       </section>
       <section className="w-full px-4 py-8 mt-16">
         <div className="max-w-3xl mx-auto mb-8">
-          <h2 className="text-4xl max-w-2xl font-bold text-center w-full mb-4 mx-auto">The global education movement isn't possible without you!</h2>
+          <h2 className="text-4xl max-w-2xl font-bold text-center w-full mb-4 mx-auto"> !ليس من الممكن القيام بأعمال تطوعية بدونك</h2>
           <p className="text-lg">Do you want to be featured on our homepage? Just tag '{generalData.social.instagram}' an Instagram post where you are helping the cause.</p>
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
@@ -81,9 +81,9 @@ function IndexPage({location}) {
       </section>
       <section className="bg-white w-full px-16 py-8 flex align-center justify-center">
         <div class="text-center max-w-xl">
-          <h2 className="text-xl uppercase text-black font-bold tracking-wider mb-4">Why We Teach</h2>
-          <p className="text-3xl text-black font-light">"Part of my joy in learning is that it puts me in a position to teach; nothing, however outstanding and however helpful, will ever give me any pleasure if the knowledge is for my benefit alone."</p>
-          <p className="text-xl font-black text-black mt-8 uppercase">Lucius Seneca<br /><b class="text-xl">Stoic Philosopher</b></p>
+          <h2 className="text-xl uppercase text-black font-bold tracking-wider mb-4">لمادا نقوم بهادا العمل ؟</h2>
+          <p className="text-3xl text-black font-light">" التطوع هو روح الإنسانية الحقيقية التي يمكن أن تغير العالم، فهو يعزز التضامن ويوحد المجتمعات من خلال خلق شعور بالمسؤولية المشتركة والاهتمام بالآخرين "</p>
+          <p className="text-xl font-black text-black mt-8 uppercase">كوفي عنان<br /><b class="text-xl"> الأمين العام السابق للأمم المتحدة</b></p>
         </div>
       </section>
     </Layout>

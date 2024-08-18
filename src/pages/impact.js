@@ -23,13 +23,13 @@ function ImpactPage({location}) {
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"
         >
           <div class="mx-auto max-w-4xl text-center">
-            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Our Global Impact</h2>
+            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">تأتيرنا على المجتمع في طنجة</h2>
             <h1 class="text-6xl font-extrabold sm:text-8xl">
               {impactNumber.toLocaleString()}
             </h1>
 
             <p class="mt-4 text-lg">
-              students have learned to program with the FPA since September 2022.
+            .عدد الاشخاص اللذين قمنا بمساعدتهم منذ 2024
             </p>
           </div>
         </div>

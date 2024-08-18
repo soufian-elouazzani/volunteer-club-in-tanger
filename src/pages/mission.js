@@ -14,7 +14,7 @@ function MissionPage({data,location}) {
         >
           <div class="mx-auto max-w-4xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-              We're on a mission to teach everyone in the world to program.
+              نحن في مهمة لجعل طنجة مكانا أفضل
             </h1>
 
             <p class="mt-4 text-lg">
