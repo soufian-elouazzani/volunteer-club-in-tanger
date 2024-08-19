@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/volunteer-club-in-tanger",
   siteMetadata: {
     title: `Fairfield Programming Association`,
     description: `Our mission is to educate high-school and college-aged (ages 14-22) individuals about computer science, engineering, and programming. To do this, we create educational resources, scholastic aptitude exams, programming competitions, and other events.`,
