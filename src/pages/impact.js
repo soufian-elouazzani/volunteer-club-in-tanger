@@ -22,7 +22,7 @@ function ImpactPage({location}) {
         <div
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"
         >
-          <div class="mx-auto max-w-4xl text-center">
+          <div class="mx-auto max-w-4xl text-center" >
             <h2 className="text-xl uppercase font-bold tracking-wider mb-4">تأتيرنا على المجتمع في طنجة</h2>
             <h1 class="text-6xl font-extrabold sm:text-8xl">
               {impactNumber.toLocaleString()}
@@ -36,11 +36,11 @@ function ImpactPage({location}) {
       </section>
       <section className="bg-active px-4 py-16">
         <div className="max-w-6xl mx-auto px-4 flex gap-4">
-          <div className="w-full md:w-2/3">
-            <h2 className="font-bold text-white text-4xl mb-4">The One Student Promise.</h2>
-            {generalData.mission?.oneStudentPromise?.map(text => <p className="mb-2 text-white text-md">{text}</p>)}
+          <div className="w-full md:w-2/3" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
+          <h2 className="font-bold text-white text-4xl mb-4">وعد التأتيرالفعال في مجتمعنا</h2>
+          {generalData.mission?.oneStudentPromise?.map(text => <p className="mb-2 text-white text-md">{text}</p>)}
             <div className="mt-8">
-              <Link className="text-lg text-white underline" to="/support">Learn More About What Your Support Does</Link>
+            <Link className="text-lg text-white underline" to="/support">تعلم أكتر عن ماذا يفعل دعمك</Link>
             </div>
           </div>
           <div className="w-1/3 hidden md:block">

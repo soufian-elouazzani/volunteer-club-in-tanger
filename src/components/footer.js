@@ -9,14 +9,14 @@ const Footer = ({ siteTitle }) => {
     <div
       class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8"
     >
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div>
           <div class="text-teal-600">
             <img class="h-16" src={Logo} alt="The Fairfield Programming Association Inc. Logo" />
           </div>
 
-          <p class="max-w-xs mt-4 text-gray-500">
-            Our mission is to educate individuals about computer science, engineering, and programming.
+          <p class="max-w-xs mt-4 text-gray-500" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
+            مهمتنا جعل طنجة مدينة أفضل و مساعدة الناس و الجمعيات في أعمالها
           </p>
 
           <ul class="flex gap-6 mt-8">
@@ -70,7 +70,7 @@ const Footer = ({ siteTitle }) => {
 
             <li>
               <a
-                href="https://twitter.com/FairfieldCoding"
+                href="#"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75"
               >
@@ -91,7 +91,7 @@ const Footer = ({ siteTitle }) => {
 
             <li>
               <a
-                href="https://github.com/fairfield-programming/"
+                href="#"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75"
               >
@@ -113,7 +113,7 @@ const Footer = ({ siteTitle }) => {
             </li>
             <li>
               <a
-                href="https://discord.gg/qtu2MXGhcf"
+                href="#"
                 target="_blank"
                 class="text-gray-700 transition hover:opacity-75"
               >
@@ -135,8 +135,8 @@ const Footer = ({ siteTitle }) => {
         <div
           class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4"
         >
-          <div>
-            <p class="font-medium text-gray-900">Programs</p>
+          {/* <div>
+            <p class="font-medium text-gray-900" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>مجالاتنا</p>
 
             <nav aria-label="Footer Navigation - Services" class="mt-6">
               <ul class="space-y-4 text-sm">
@@ -149,28 +149,23 @@ const Footer = ({ siteTitle }) => {
                 }
               </ul>
             </nav>
-          </div>
+          </div> */}
 
           <div>
-            <p class="font-medium text-gray-900">Organization</p>
+            <p class="font-medium text-gray-900" >عن النادي</p>
 
             <nav aria-label="Footer Navigation - Organization" class="mt-6">
-              <ul class="space-y-4 text-sm">
-                <li>
-                  <Link to="/mission" class="text-gray-700 transition hover:opacity-75">
-                    About
-                  </Link>
-                </li>
-
+              <ul class="space-y-4 text-sm" >
+            
                 <li>
                   <Link to="/team" class="text-gray-700 transition hover:opacity-75">
-                    Meet the Team
+                    تعرف على فريقنا
                   </Link>
                 </li>
 
                 <li>
                   <Link to="/contact" class="text-gray-700 transition hover:opacity-75">
-                    Contact
+                    تواصل معنا
                   </Link>
                 </li>
               </ul>
@@ -178,31 +173,31 @@ const Footer = ({ siteTitle }) => {
           </div>
 
           <div>
-            <p class="font-medium text-gray-900">Helpful Links</p>
+            <p class="font-medium text-gray-900">روابط مفيدة</p>
 
             <nav aria-label="Footer Navigation - Company" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
                   <Link to="/documents" class="text-gray-700 transition hover:opacity-75">
-                    Documents
+                    مستندات
                   </Link>
                 </li>
 
                 <li>
                   <Link to="/press" class="text-gray-700 transition hover:opacity-75">
-                    Press and Media
+                    الصحافة و التواصل
                   </Link>
                 </li>
 
                 <li>
                   <Link to="/faq" class="text-gray-700 transition hover:opacity-75">
-                    FAQs
+                    أسئلة و أجوبة
                   </Link>
                 </li>
 
                 <li>
                   <Link to="/support" class="text-gray-700 transition hover:opacity-75">
-                    Donate
+                    تبرع
                   </Link>
                 </li>
               </ul>
@@ -210,25 +205,21 @@ const Footer = ({ siteTitle }) => {
           </div>
 
           <div>
-            <p class="font-medium text-gray-900">Legal</p>
+            <p class="font-medium text-gray-900">قانوني</p>
 
             <nav aria-label="Footer Navigation - Legal" class="mt-6">
               <ul class="space-y-4 text-sm">
-                <li>
-                  <Link to="/accessibility" class="text-gray-700 transition hover:opacity-75">
-                    Accessibility
-                  </Link>
-                </li>
+                
 
                 <li>
                   <Link to="/terms" class="text-gray-700 transition hover:opacity-75">
-                    Terms and Conditions
+                    شروط الاستعمال
                   </Link>
                 </li>
 
                 <li>
                   <Link to="/privacy" class="text-gray-700 transition hover:opacity-75">
-                    Privacy Policy
+                    سباسة الخصوصية
                   </Link>
                 </li>
               </ul>
@@ -238,7 +229,7 @@ const Footer = ({ siteTitle }) => {
       </div>
 
       <p class="text-xs text-gray-500">
-        &copy; {new Date().getFullYear()}. The Fairfield Programming Association Inc. All rights reserved.
+        &copy; {new Date().getFullYear()}. نادي التطوع بطنجة. كل الحقوق محفوظة.
       </p>
     </div>
   </footer>

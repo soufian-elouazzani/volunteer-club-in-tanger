@@ -13,7 +13,7 @@ function ProgramsPage({location}) {
 
   return (
     <Layout location={location} crumbLabel="Team">
-      <section>
+      <section  style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div class="mx-auto max-w-6xl px-4 pb-16 flex flex-col mt-8">
           <h2 className="font-bold text-4xl mb-4"  >فريقنا</h2>
           <p className="text-xl mb-4 max-w-2xl" style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>

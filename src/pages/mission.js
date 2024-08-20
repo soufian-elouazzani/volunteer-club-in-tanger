@@ -19,34 +19,35 @@ function MissionPage({data,location}) {
 
             <p class="mt-4 text-lg">
               {/*We offer dozens of different programs, all directed towards teaching children and adults how to program and make the most of the technology that surrounds us. Our efforts include corporate partnerships, school and university charters, digital resources, and support for the open-source ecosystem.*/}
-              The Fairfield Programming Association (FPA) is a student-run non-profit organization dedicated to providing youth with computer science educational opportunities. As the technology industry grows and to encapsulate every facet of our day to day life, computer literacy becomes more of a necessity to thrive. Computer science teaches analytical thinking and problem solving, skills which are imperative to any student’s success. The mission of the FPA is to advance computer literacy and provide underserved students of all ages the resources necessary to rise as our next generation of engineers. The FPA strives to pass on the passion we have for computer science to our students, allowing that passion to blossom through each students’ career.
-            </p>
+               نادي متطوعي طنجة هو نادي ينشط أساسا في مساعدة الجمعيات في الاعمال التطوعية، حل مشاكل الإجتماعية ، القيام بأنشطة مختلفة تستهدف فئات معينة ، جلب متبرعين بالمال للنادي للمساعدات الإنسانية، مساعدات التنظيمات سواء متل حفلات او مهراجانات او تظاهرة كروية ، والكتير من الأنشطة الأخرى 
+            </p> 
+            
 
             <div class="mt-8 flex flex-wrap justify-center gap-4">
               <Link
                 class="block w-full rounded bg-active px-12 py-3 text-sm font-medium text-white shadow hover:bg-active focus:outline-none focus:ring active:bg-active sm:w-auto"
                 to="/support"
               >
-                Support
+                الدعم
               </Link>
 
               <Link
                 class="block w-full rounded px-12 py-3 text-sm font-medium text-active shadow hover:text-active focus:outline-none focus:ring active:text-active sm:w-auto"
                 to="/impact"
               >
-                Our Impact
+                تأتيرنا
               </Link>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-active px-4 py-16">
+      <section className="bg-active px-4 py-16" >
         <div className="max-w-6xl mx-auto px-4 flex gap-4">
-          <div className="w-full md:w-2/3">
-            <h2 className="font-bold text-white text-4xl mb-4">The One Student Promise.</h2>
+          <div className="w-full md:w-2/3"  style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
+            <h2 className="font-bold text-white text-4xl mb-4">وعد التأتيرالفعال في مجتمعنا</h2>
             {generalData.mission?.oneStudentPromise?.map(text => <p className="mb-2 text-white text-md">{text}</p>)}
             <div className="mt-8">
-              <Link className="text-lg text-white underline" to="/support">Learn More About What Your Support Does</Link>
+              <Link className="text-lg text-white underline" to="/support">تعلم أكتر عن ماذا يفعل دعمك</Link>
             </div>
           </div>
           <div className="w-1/3 hidden text-slate-200 md:block">

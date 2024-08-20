@@ -18,7 +18,7 @@ function IndexPage({location}) {
             <h1 class="text-3xl font-extrabold sm:text-5xl">
               ,بمساعدتك
               <strong class="font-extrabold text-active sm:block">
-                &nbsp;.نستطيع أن نجعل طنجة أفضل 
+                &nbsp;.نستطيع أن نجعل طنجة مدينة أفضل 
               </strong>
             </h1>
 
@@ -71,7 +71,7 @@ function IndexPage({location}) {
       <section className="w-full px-4 py-8 mt-16">
         <div className="max-w-3xl mx-auto mb-8">
           <h2 className="text-4xl max-w-2xl font-bold text-center w-full mb-4 mx-auto"> !ليس من الممكن القيام بأعمال تطوعية بدونك</h2>
-          <p className="text-lg">Do you want to be featured on our homepage? Just tag '{generalData.social.instagram}' an Instagram post where you are helping the cause.</p>
+          <p className="text-lg" style={{ direction: 'rtl', textAlign: 'center', padding: '10px', margin: '10px' }}>  قم بزيارة صفحتنا على الانستقرام للمزيد من التوتيقات عن أعمالنا '{generalData.social.instagram}' </p>
         </div>
         <div className="w-4/5 mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-1">
           {
