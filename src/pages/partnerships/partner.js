@@ -15,74 +15,74 @@ function PartnerPage({location}) {
         >
           <div class="mx-auto max-w-4xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-            Become an FPA Partner Today in a Few Simple Steps 
+            كن شريكًا لـنادي متطوع اليوم في خطوات بسيطة 
             </h1>
 
             <p class="mt-4 text-lg">
-              The FPA Partner Program is always looking for new members to join and bring their own views and resources into our mission. If your organization has a partnership proposal, please follow the below steps to submit it. 
+            دائمًا ما يبحث برنامج شريك لنادينا عن أعضاء جدد للانضمام وجلب وجهات نظرهم ومواردهم إلى مهمتنا. إذا كانت لدى مؤسستك اقتراح شراكة، يرجى اتباع الخطوات أدناه لتقديمه
             </p>
 
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-2/3">
-            <h2 className="font-bold text-4xl mb-4">Step One&mdash; Write a Proposal</h2>
+          <h2 className="font-bold text-4xl mb-4">الخطوة الأولى&mdash; كتابة الاقتراح</h2>
+          <p class="mt-4 text-lg">
+          يجب أن يكون الاقتراح المقدم مؤلفًا من صفحتين (خط بحجم 12 نقطة، بنمط تايمز نيو رومان، بمسافة واحدة بين السطور)، ويحتوي على ثلاث مناطق رئيسية: وصف لمؤسستك، خطة مفصلة لما تعنيه/تفعله الشراكة، ومعلومات عن ما ستقدمه مؤسستك وما يحتاج لنادينا إلى تقديمه.
+          </p>
             <p class="mt-4 text-lg">
-              A proposal for the FPA should be two pages (twelve point font, times new roman, single spaced), and contain three main areas: a description of your organization, a detailed plan of what the partnership would mean/ do, and information about what your organization would provide and what the FPA would need to provide. 
-            </p>
-            <p class="mt-4 text-lg">
-              The size, age, revenue, publicity, etc. of your organization is not important to the FPA. The main determining factor behind us moving forward with a partnership is how well we feel the partnership will mutually benefit our organizations, and how well we feel that the partnership fits with our mission.
+            حجم، عمر، إيرادات، شهرة، إلخ، ليست مهمة لـنادي متطوع العامل الرئيسي الذي يحدد مدى تقدمنا في الشراكة هو مدى شعورنا بأن الشراكة ستفيد منظماتنا بشكل متبادل، ومدى شعورنا بأن الشراكة تتناسب مع مهمتنا
             </p>
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-2/3">
-            <h2 className="font-bold text-4xl mb-4">Step Two&mdash; Submit the Proposal and Wait</h2>
+          <h2 className="font-bold text-4xl mb-4">الخطوة الثانية&mdash; تقديم الاقتراح والانتظار</h2>
+          <p class="mt-4 text-lg">
+          لتقديم اقتراح إلى  تأكد أولاً من أنه يتوافق مع الإرشادات المذكورة أعلاه. إذا كان كذلك، قم بإرسال ملف PDF إلى <code>partnership.requests@gmail.com</code>.
+          </p>
             <p class="mt-4 text-lg">
-              To submit a proposal to the FPA, first make sure that it fits the above guidelines. If it does, then email a PDF to <code>proposals@fairfieldprogramming.org</code>.
-            </p>
-            <p class="mt-4 text-lg">
-              The proposal process is never quick! It can take us anywhere from a few days to three weeks, to get a proposal read, evaluated, and responded to. The extra length on the proposal process can be due to a number of factors including additional consulting, similar projects already being developed, and team discussions.
+            عملية تقديم الاقتراح ليست سريعة أبدًا! يمكن أن تستغرق منا من بضعة أيام إلى ثلاثة أسابيع لقراءة الاقتراح وتقييمه والرد عليه. يمكن أن يرجع طول عملية الاقتراح إلى عدد من العوامل بما في ذلك التشاور الإضافي، المشاريع المماثلة التي يتم تطويرها بالفعل، والمناقشات الجماعية.
             </p>
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-2/3">
-            <h2 className="font-bold text-4xl mb-4">Step Three&mdash; Meetings and Discussions</h2>
+          <h2 className="font-bold text-4xl mb-4">الخطوة الثالثة&mdash; الاجتماعات والمناقشات</h2>
+          <p class="mt-4 text-lg">
+          للتأكد من أن منظماتنا متوافقة على جميع التفاصيل والخطط في الاقتراح (وأحيانًا لأن جميع التفاصيل غير مضمنة في الاقتراح)، نقوم بجدولة الاجتماعات والمناقشات. تبدأ هذه الاجتماعات والمناقشات مع مقيمي الاقتراح ولكنها سرعان ما تشمل جميع الأشخاص الضروريين لتحويل الاقتراح إلى واقع.
+          </p>
             <p class="mt-4 text-lg">
-              To make sure that our organizations are on the same page about all of the details and plans in the proposal (and sometimes because not all of the details are included in the proposal), we schedule meetings and discussions. These meetings and discussions start with the proposal evaluators but then soon move to include all the necessary people to make the proposal into a reality.
-            </p>
-            <p class="mt-4 text-lg">
-              We would always love for this meeting process to be fast, and it can be if you respond quickly to emails and have free times available. We know that this is not always the case, and so most partnerships will take around one or two months to move into reality. 
+            نحب دائمًا أن تكون عملية الاجتماع سريعة، ويمكن أن تكون كذلك إذا كنت تستجيب بسرعة للبريد الإلكتروني ولديك أوقات فراغ متاحة. نعلم أن هذا ليس هو الحال دائمًا، لذلك ستستغرق معظم الشراكات حوالي شهر أو شهرين لتتحقق.
             </p>
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-2/3">
-            <h2 className="font-bold text-4xl mb-4">Step Four&mdash; Contracts and Legal</h2>
-            <p class="mt-4 text-lg">
-              For a partnership to be a partnership, it should be formalized with a contract. This contract will be drawn up by your organization and then read over by the FPA legal team. If our legal team agrees to the terms, then your organization will be officially partnered with the FPA.
-            </p>
+          <h2 className="font-bold text-4xl mb-4">الخطوة الرابعة&mdash; العقود والشؤون القانونية</h2>
+          <p class="mt-4 text-lg">
+          لكي تكون الشراكة شراكة، يجب أن يتم توثيقها بعقد. سيتم إعداد هذا العقد من قبل مؤسستك ثم يقوم فريق FPA القانوني بمراجعته. إذا وافق فريقنا القانوني على الشروط، فسيتم رسميًا شراكة مؤسستك مع FPA.
+          </p>
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ direction: 'rtl', textAlign: 'right', padding: '10px', margin: '10px' }}>
         <div className="max-w-6xl mx-auto pb-16 px-4 flex">
           <div className="w-2/3">
-            <h2 className="font-bold text-4xl mb-4">Step Five&mdash; Getting it Done</h2>
+          <h2 className="font-bold text-4xl mb-4">الخطوة الخامسة&mdash; تنفيذ الشراكة</h2>
+          <p class="mt-4 text-lg">
+          بمجرد الشراكة مع ، سنجري المزيد من الاجتماعات لتوثيق الشراكة وتفعيلها. من هناك، سيبدأ في تنفيذ جميع جوانب العقد، وستكون مؤسستك مسؤولة عن تنفيذ متطلبات العقد.
+          </p>
             <p class="mt-4 text-lg">
-              Once partnered with the FPA, we will have several more meetings to get the partnership finalized and into action. From there, the FPA will start fulfilling all of our aspects of the contract, and your organization will be responsible for fulfilling your requirements of the contract.
-            </p>
-            <p class="mt-4 text-lg">
-              If all goes according to plan, the partnership will be complete. We always have meetings after a partnership ends to evaluate what we can do better in the future, and what opportunities we would have to partner again.
+            إذا سارت الأمور وفقًا للخطة، فسيتم إكمال الشراكة. لدينا دائمًا اجتماعات بعد انتهاء الشراكة لتقييم ما يمكننا فعله بشكل أفضل في المستقبل، وما هي الفرص التي قد تتاح لنا للتعاون مرة أخرى.
             </p>
           </div>
         </div>

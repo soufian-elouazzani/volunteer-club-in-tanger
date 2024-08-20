@@ -15,11 +15,14 @@ function PartnerPage({location}) {
         >
           <div class="mx-auto max-w-4xl text-center">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
-            Frequently Asked Questions
+            أكتر الاسئلة إعادة
             </h1>
 
             <p class="mt-4 text-lg">
               Below is a list of frequently asked questions to the FPA and some of the answers that we usually give out. If you have a question that isn't answered below, please contact us.
+            </p>
+            <p class="mt-4 text-lg">
+                أسفله لائحة من الاسئلة الاكتر شيوعا حول نادينا , ادا كان لديك سؤال ليس في القائمة من فضلك قم بالإتصال بنا
             </p>
 
           </div>

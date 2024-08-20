@@ -22,7 +22,7 @@ function ContactPage({location}) {
             </section>
             <section>
                 <div className="max-w-6xl mx-auto pb-16 px-4 flex flex-col">
-                    <p className="text-lg">If you would like to contact the FPA, please reach out to contact@fairfieldprogramming.org. Alternatively, if you feel that contact through social media is more appropriate, you can message any of the following accounts:</p>
+                    <p className="text-lg">If you would like to contact the club, please reach out to contact@clubmotatwi3.org. Alternatively, if you feel that contact through social media is more appropriate, you can message any of the following accounts:</p>
                     <p className="text-lg font-bold mt-4">Instagram: <a href={`https://instagram.com/${social.instagram}`} className="hover:underline hover:text-sky-500 text-sky-400">{social.instagram}</a></p>
                 </div>
             </section>

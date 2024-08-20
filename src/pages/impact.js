@@ -53,14 +53,14 @@ function ImpactPage({location}) {
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"
         >
           <div class="mx-auto max-w-5xl text-center">
-            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Impact by Gender</h2>
+            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">تأتير حسب الجنس</h2>
             <div className="w-full flex flex-col md:flex-row gap-8">
               <div className="w-full h-full flex align-center justify-center flex-col">
                 <p class="text-4xl font-extrabold sm:text-6xl">
                   {boyImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                  boys have learned since September 2022.
+                  عدد الأطفال الذكور الدين قمنا بمساعدتهم
                 </p>
               </div>
               <div className="w-full h-full flex align-center justify-center flex-col">
@@ -68,17 +68,10 @@ function ImpactPage({location}) {
                   {girlImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                  girls have learned since September 2022.
+                  عدد الأطفال البنات الدين قمنا بمساعدتهم
                 </p>
               </div>
-              <div className="w-full h-full flex align-center justify-center flex-col">
-                <p class="text-4xl font-extrabold sm:text-6xl">
-                  {nonBinaryImpact.toLocaleString()}
-                </p>
-                <p class="mt-4 text-lg">
-                  non-binary students have learned since September 2022.
-                </p>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -88,14 +81,14 @@ function ImpactPage({location}) {
           class="mx-auto max-w-screen-xl px-4 py-48 lg:flex  lg:items-center"
         >
           <div class="mx-auto max-w-5xl text-center">
-            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Impact by Age</h2>
+            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">تأتير حسب السن</h2>
             <div className="w-full flex flex-col md:flex-row gap-8">
               <div className="w-full h-full flex align-center justify-center flex-col">
                 <p class="text-4xl font-extrabold sm:text-6xl">
                   {childrenImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                  children have learned since September 2022.
+                  الأطفال الدين ساعدناهم
                 </p>
               </div>
               <div className="w-full h-full flex align-center justify-center flex-col">
@@ -103,7 +96,7 @@ function ImpactPage({location}) {
                   {adultImpact.toLocaleString()}
                 </p>
                 <p class="mt-4 text-lg">
-                  adults have learned since September 2022.
+                  الراشدين الدين ساعدناهم
                 </p>
               </div>
             </div>
@@ -115,14 +108,14 @@ function ImpactPage({location}) {
           class="mx-auto max-w-screen-xl px-4 lg:flex  lg:items-center"
         >
           <div class="mx-auto max-w-5xl text-center">
-            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">Our Economic Impact</h2>
+            <h2 className="text-xl uppercase font-bold tracking-wider mb-4">تأتيرنا على الإقتصاد</h2>
             <div className="w-full flex flex-col md:flex-row gap-8">
               <div className="w-full h-full flex align-center justify-center flex-col">
                 <p class="text-4xl font-extrabold sm:text-6xl">
                   {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(economicImpact)}
                 </p>
                 <p class="mt-4 text-lg">
-                  of predicted global wealth generated since 2022.
+                  التروة المقدرة أن تدرها الشركات الناشئة للدولة 
                 </p>
               </div>
             </div>

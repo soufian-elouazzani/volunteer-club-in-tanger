@@ -1,6 +1,6 @@
 {
     "impact": {
-        "children": 3,
+        "children": 300,
         "adults": 9,
         "girls": 134,
         "boys": 112,
@@ -8,8 +8,8 @@
     },
     "faq": [
         {
-            "question": "Is the Fairfield Programming Association a non-profit?",
-            "answer": "Yes! We formed the FPA as a non-profit in the beautiful state of Connecticut and then earned our 501(c)(3) designation from the IRS a few months later. Because of our status, we can accept donations and hopefully avoid conflicts of interest in financing."
+            "question": "هل نادي متطوع منظمة غير ربحية",
+            "answer": "نعم!, نحن منظمة غير ربحية هدفنا مساعدة المجتمع وتحقيق العدالة الإجتماعية"
         }
     ],
     "mission": {
