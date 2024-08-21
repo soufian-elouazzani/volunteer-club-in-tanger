@@ -16,11 +16,12 @@ function PressPage({location}) {
             >
                 <div class="mx-auto max-w-4xl text-center">
                     <h1 class="text-3xl font-extrabold sm:text-5xl">
-                        Press and Media
+                        الصحافة و التواصل
                     </h1>
 
+                
                     <p class="mt-4 text-lg">
-                        Here, you can see a collection of our press releases, media comments, and other public facing statements that the FPA has made since our inception.
+                        هنا يمكنك رؤية مجموع من الاعمال التي قمنا بها و الموتقة والتي تعطينا مزيدا من التقة لنستمر
                     </p>
 
                 </div>
