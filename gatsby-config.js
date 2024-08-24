@@ -10,9 +10,9 @@
 module.exports = {
   pathPrefix: "/volunteer-club-in-tanger",
   siteMetadata: {
-    title: `Fairfield Programming Association`,
-    description: `Our mission is to educate high-school and college-aged (ages 14-22) individuals about computer science, engineering, and programming. To do this, we create educational resources, scholastic aptitude exams, programming competitions, and other events.`,
-    author: `@fairfieldprogramming`,
+    title: `نادي سفراء متطوع`,
+    description: `               نادي متطوعي طنجة هو نادي ينشط أساسا في مساعدة الجمعيات في الاعمال التطوعية، حل مشاكل الإجتماعية ، القيام بأنشطة مختلفة تستهدف فئات معينة ، جلب متبرعين بالمال للنادي للمساعدات الإنسانية، مساعدات التنظيمات سواء متل حفلات او مهراجانات او تظاهرة كروية ، والكتير من الأنشطة الأخرى `,
+    author: `@soufian5907`,
     siteUrl: `https://about.fairfieldprogramming.org`,
   },
   plugins: [
