@@ -27,11 +27,11 @@
     "documents": [
         {
             "name": "تقرير عن نادي متطوع",
-            "path": "https://github.com/soufian-elouazzani/volunteer-club-in-tanger/tree/main/static/documents/ref_club.pdf"
+            "path": "documents/ref_club.pdf"
         },
         {
             "name": "أهداف نادي متطوع",
-            "path": "https://github.com/soufian-elouazzani/volunteer-club-in-tanger/tree/main/static/documents/goals_soufara2_motatawi3_.pdf"
+            "path": "documents/goals_soufara2_motatawi3.pdf"
         }
     ],
     "press": [
