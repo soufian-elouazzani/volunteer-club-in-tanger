@@ -22,24 +22,16 @@
         ]
     },
     "social": {
-        "instagram": "@sofara2_motatawi3"
+        "instagram": "@soufara2_motatawi3"
     },
     "documents": [
         {
-            "name": "1023-EZ",
-            "path": "/documents/1023-EZ.pdf"
+            "name": "تقرير عن نادي متطوع",
+            "path": "/documents/ref_club.pdf"
         },
         {
-            "name": "Certificate of Incorporation",
-            "path": "/documents/Certificate of Incorporation.pdf"
-        },
-        {
-            "name": "Determination Letter",
-            "path": "/documents/Determination Letter.pdf"
-        },
-        {
-            "name": "Organization and First Report",
-            "path": "/documents/Organization and First Report.pdf"
+            "name": "أهداف نادي متطوع",
+            "path": "/documents/goals_soufara2_motatawi3.pdf"
         }
     ],
     "press": [
@@ -76,37 +68,37 @@
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram2.jpeg"
+                "src": "photos/instagram2.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram3.jpeg"
+                "src": "photos/instagram3.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram4.jpeg"
+                "src": "photos/instagram4.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram5.jpeg"
+                "src": "photos/instagram5.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram6.jpeg"
+                "src": "photos/instagram6.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram7.jpeg"
+                "src": "photos/instagram7.jpg"
             },
             {
                 "href": "",
                 "alt": "",
-                "src": "photos/instagram8.jpeg"
+                "src": "photos/instagram8.jpg"
             }
         ]
     }

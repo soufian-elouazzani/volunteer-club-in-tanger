@@ -14,10 +14,10 @@ function PressPage({location}) {
             >
                 <div class="mx-auto max-w-4xl text-center">
                     <h1 class="text-3xl font-extrabold sm:text-5xl">
-                        Documents
+                        مستندات
                     </h1>
                     <p class="mt-4 text-lg">
-                        Every non-profit has to be as transparent as possible. To do this, we publish our 1023 forms, 990s, and other important legal documentation.
+                    ...في المستندات التالية مجموعة من المعلومات عن نادينا التعريف الأهداف ,بنود العمل وما إلى ذاك
                     </p>
                 </div>
             </div>
